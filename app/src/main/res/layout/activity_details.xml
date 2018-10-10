@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".DetailsActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shName"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorAccent"
+        android:enabled="false"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shPhone"
+        android:inputType="phone"
+        android:textColor="@color/colorAccent"
+        android:enabled="false"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shEmail"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorAccent"
+        android:enabled="false"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shText"
+        android:inputType="textMultiLine"
+        android:textColor="@color/colorAccent"
+        android:enabled="false"/>
+</LinearLayout>
+<!-- This is the third and final activitys layout, where user will be able to view the entire input data about a certain person. -->

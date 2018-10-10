@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/showdet"
+        android:id="@+id/details_menu"/>
+    <item
+        android:title="@string/remove"
+        android:id="@+id/remove_menu"/>
+</menu>
+<!-- Created a context menu layout, with two menu items in it that will be used in the ShowActivity. -->
